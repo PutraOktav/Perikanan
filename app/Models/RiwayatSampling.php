@@ -11,7 +11,7 @@ class RiwayatSampling extends Model
     protected $fillable = [
         'name',
         'area',
-        'ukuran_ikan_sampling',
+        'ukuranIkanSampling',
         'feedDayKG',
         'totalFeedSampling',
         'sampling',

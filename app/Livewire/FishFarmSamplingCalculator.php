@@ -11,6 +11,7 @@ class FishFarmSamplingCalculator extends Component
 {
     public $fishType;
     public $area;
+    public $ukuranIkanSampling;
     public $result;
     public $isCalculated = false;
     public $fishTypeName = null;
@@ -18,6 +19,7 @@ class FishFarmSamplingCalculator extends Component
     protected $rules = [
         'fishType' => 'required|exists:fish_types,id',
         'area' => 'required|numeric|min:1',
+        'ukuranIkanSampling' => 'required|numeric|min:1',
     ];
 
     public function calculate()
@@ -25,40 +27,25 @@ class FishFarmSamplingCalculator extends Component
         $this->validate();
 
         $fishType = FishType::find($this->fishType);
+        $ukuranIkanSampling = $this->ukuranIkanSampling;
         $totalFish = $this->area * $fishType->stocking_density;
-        $feedRatio = $fishType->fcr;
-        $biomassaPanen = $fishType->ukuran_panen * $totalFish * $feedRatio;
-        $biomassaPanenkg = $biomassaPanen / 1000;
-        $totalFeed = $biomassaPanen / 1000 * $feedRatio;
-        $zak = $totalFeed / 30;
-        $waktuPanen = $fishType->waktu_panen;
         $ukuranAwal = $fishType->ukuran_awal;
         $biomassa = $ukuranAwal * $totalFish;
         $feedDay = $biomassa * 0.03 / 1000;
-        $ukuranPanen = $fishType->ukuran_panen;
         $biomassakg = $biomassa / 1000;
         $feed = FishFood::find($fishType->fish_food_id);
         $namaPakan = $feed->name;
-        $feedCost = $totalFeed * $feed->price;
-        $fishCost = $totalFish * $fishType->price;
-        $allCost = $feedCost + $fishCost;
         $sampling = $fishType->waktu_sampling;
         $feedSampling = $sampling * $feedDay * 7;
         
         $this->result = [
             'fish_type_id' => $this->fishType,
+            'area' => $this->area,
             'total_fish' => $totalFish,
-            'biomassa_panen_kg' => $biomassaPanenkg,
-            'total_feed' => $totalFeed,
-            'zak' => $zak,
-            'ukuran_panen' =>  $ukuranPanen,
-            'waktu_panen' => $waktuPanen,
             'feed_per_day' => $feedDay,
             'biomassa_kg' => $biomassakg,
+            'ukuranIkanSampling' => $ukuranIkanSampling,
             'nama_pakan' => $namaPakan,
-            'feed_cost' => $feedCost,
-            'fish_cost' => $fishCost,
-            'all_cost' => $allCost,
             'sampling' => $sampling,
             'feedSampling' =>  $feedSampling,
         ];
@@ -66,22 +53,13 @@ class FishFarmSamplingCalculator extends Component
         $this->fishTypeName = $selectedFishType->name;
         $this->isCalculated = true;
 
-             // Simpan hasil perhitungan ke database
+            //  Simpan hasil perhitungan ke database
             RiwayatSampling::create([
-                'fish_type_id' => $this->fishType,
+                'name' => $this->fishTypeName = $selectedFishType->name,
                 'area' => $this->area,
-                'total_fish' => $totalFish,
-                'biomassa_panen_kg' => $biomassaPanenkg,
-                'total_feed' => $totalFeed,
-                'zak' => $zak,
-                'waktu_panen' => $waktuPanen,
-                'ukuran_panen' =>  $ukuranPanen,
-                'feed_per_day' => $feedDay,
-                'biomassa_kg' => $biomassakg,
-                'nama_pakan' => $namaPakan,
-                'feed_cost' => $feedCost,
-                'fish_cost' => $fishCost,
-                'all_cost' => $allCost,
+                'ukuranIkanSampling' => $ukuranIkanSampling,
+                'feedDayKG' => $feedDay,
+                'totalFeedSampling' => $feedSampling,
                 'sampling' => $sampling,
             ]);
     }
