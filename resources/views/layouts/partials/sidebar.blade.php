@@ -70,7 +70,7 @@
         <footer class="sticky-footer bg-white">
             <div class="container my-auto">
                 <div class="copyright text-center my-auto">
-                    <span>Copyright &copy; Putra Winly Octavianto 2021 - {{ date('Y') }}</span><br> Hubungi :
+                    <span>Copyright Aqua Planning 2021 - {{ date('Y') }}</span><br>
                     <a href="https://wa.me/6289506943980" class="text-blue-500 hover:text-blue-700">
                         📞 Putra Winly Octavianto
                     </a>
