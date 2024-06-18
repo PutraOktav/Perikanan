@@ -7,33 +7,33 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-header">Jenis Ikan</div>
+                                <div class="card-header">Fish Type</div>
                                 <div class="card-body">
-                                    <p>Total Jenis Ikan: {{ $fishTypeCount }}</p>
+                                    <p>Total Fish Type: {{ $fishTypeCount }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-header">Jenis Pakan</div>
+                                <div class="card-header">Fish Food</div>
                                 <div class="card-body">
-                                    <p>Total Jenis Ikan: {{ $fishFoodCount }}</p>
+                                    <p>Total Fish Food: {{ $fishFoodCount }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-header">Riwayat</div>
+                                <div class="card-header">Histories</div>
                                 <div class="card-body">
-                                    <p>Total Riwayats: {{ $riwayatCount }}</p>
+                                    <p>Total Histories: {{ $riwayatCount }}</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card">
-                                <div class="card-header">Riwayat Sampling</div>
+                                <div class="card-header">Histories Sampling</div>
                                 <div class="card-body">
-                                    <p>Total Riwayat: {{ $riwayatSamplingCount }}</p>
+                                    <p>Total Histories: {{ $riwayatSamplingCount }}</p>
                                 </div>
                             </div>
                         </div>

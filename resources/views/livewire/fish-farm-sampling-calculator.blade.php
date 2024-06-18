@@ -23,7 +23,7 @@
 
                     <div>
                         <label for="ukuranIkanSampling" class="block text-sm font-medium text-gray-700">Ukuran Ikan
-                            gram</label>
+                            (gram)</label>
                         <input wire:model="ukuranIkanSampling" type="number" id="ukuranIkanSampling"
                             name="ukuran_ikan_sampling"
                             class="mt-1 block w-full pl-3 pr-3 py-2 border-2  border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">

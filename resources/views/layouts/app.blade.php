@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Laravel | @yield('title')</title>
+    <title>Aquatic Planning | @yield('title')</title>
     @include('layouts.partials.header')
 </head>
 

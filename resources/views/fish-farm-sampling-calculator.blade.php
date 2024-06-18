@@ -1,5 +1,5 @@
 <x-app-layout>
-    @section('title', 'Kalkulator Sampling')
+    @section('title', 'Calc')
     @section('main-content')
         @livewire('fish-farm-sampling-calculator')
     @endsection
