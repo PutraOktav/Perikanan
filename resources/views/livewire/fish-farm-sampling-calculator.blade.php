@@ -62,7 +62,7 @@
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700">Pakan Per Hari : </td>
-                            <span>{{ $result['feed_per_day'] }} Gram</span>
+                            <span>{{ $result['feed_per_day'] }} Kg</span>
                     </div>
                     <div>
                         <label class="block text-sm font-medium text-gray-700">Biomassa (kg) : </td>
