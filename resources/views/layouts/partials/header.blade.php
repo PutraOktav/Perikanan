@@ -17,8 +17,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/sb-admin-2.min.css') }}" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
+    {{-- <!-- Favicon -->
+    <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png"> --}}
+    <link rel="icon" type="image/png" href="img/fish.png">
 
     {{-- tailwind --}}
     <script src="https://cdn.tailwindcss.com"></script>

@@ -80,7 +80,10 @@
                             class="px-6 py-3 text-left text-xs font-medium text-gray-500
                             uppercase tracking-wider">
                             Tanggal Transaksi</th>
-                        <th scope="col" class="relative px-6 py-3"><span class="sr-only">Actions</span></th>
+                        <th scope="col"
+                            class="px-6 py-3 text-left text-xs font-medium text-gray-500
+                            uppercase tracking-wider">
+                            Aksi</th>
                     </tr>
                 </thead>
                 <tbody class="bg-white divide-y divide-gray-200">
@@ -92,13 +95,13 @@
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">{{ $transaksi->jumlah }} Ekor
                             </td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Rp.
-                                {{ $transaksi->harga_per_unit }}</td>
+                                {{ number_format($transaksi->harga_per_unit, 0, ',', '.') }}</td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">Rp.
-                                {{ $transaksi->jumlah * $transaksi->harga_per_unit }}</td>
+                                {{ number_format($transaksi->jumlah * $transaksi->harga_per_unit, 2, ',', '.') }}</td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
                                 {{ $transaksi->tanggal_transaksi }}</td>
                             <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                <button wire:click="hapusTransaksi({{ $transaksi->id }})"
+                                <button wire:click="deleteTransaksi({{ $transaksi->id }})"
                                     class="text-red-600 hover:text-red-900">Hapus</button>
                             </td>
                         </tr>
@@ -110,5 +113,6 @@
             <a href="{{ route('transaksi.pdf', ['transactions' => $selectedTransaksis]) }}"
                 class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md mt-4">Cetak PDF Transaksi</a>
         </div>
+
     </div>
 </div>

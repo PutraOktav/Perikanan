@@ -1,6 +1,6 @@
 <x-app-layout>
-    @section('title', 'Kebutuhan')
+    @section('title', 'HPP')
     @section('main-content')
-        @livewire('fish-calculator')
+        @livewire('hpp-component')
     @endsection
 </x-app-layout>

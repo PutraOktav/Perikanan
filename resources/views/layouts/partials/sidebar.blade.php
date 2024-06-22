@@ -1,7 +1,7 @@
 <!-- Page Wrapper -->
 <div id="wrapper" class="font-mono text-lg">
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
@@ -34,6 +34,13 @@
             <a class="nav-link" href="{{ route('fish-farm-sampling-calculator') }}">
                 <i class="fas fa-fw fa-vial"></i>
                 <span>{{ __('Kebutuhan Sampling') }}</span>
+            </a>
+        </li>
+
+        <li class="nav-item hover:font-serif {{ Nav::isRoute('hpp') }}">
+            <a class="nav-link" href="{{ route('hpp') }}">
+                <i class="fas fa-money-bill-alt"></i>
+                <span>{{ __('Harga Pokok Penjualan') }}</span>
             </a>
         </li>
 
@@ -78,9 +85,11 @@
         <li class="nav-item hover:font-serif {{ Nav::isRoute('other-need-transactions') }}">
             <a class="nav-link" href="{{ route('other-need-transactions') }}">
                 <i class="fas fa-fw fa-tools"></i>
-                <span>{{ __('Stok Lain') }}</span>
+                <span>{{ __('Stok Alat') }}</span>
             </a>
         </li>
+
+
         <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
         <!-- Sidebar Toggler (Sidebar) -->

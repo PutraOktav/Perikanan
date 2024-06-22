@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Component;
 use App\Models\Transaksi;
-use Dompdf\Dompdf;
+use Carbon\Carbon;
 
 class TransaksiComponent extends Component
 {
@@ -59,27 +59,6 @@ class TransaksiComponent extends Component
         $this->transaksis = Transaksi::all();
     }
 
-    public function cetakPDF()
-    {
-        // Query selected transactions from database
-        $transactions = Transaksi::whereIn('id', $this->selectedTransaksis)->get();
-
-        // Load the view using Livewire render method
-        $html = $this->renderView('livewire.transaksi-livewire', ['transactions' => $transactions]);
-
-        // Create PDF instance
-        $dompdf = new Dompdf();
-        $dompdf->loadHtml($html);
-
-        // Set paper size (optional)
-        $dompdf->setPaper('A4', 'landscape');
-
-        // Render the PDF
-        $dompdf->render();
-
-        // Download the generated PDF
-        return $dompdf->stream('transaksi.pdf');
-    }
     public function render()
     {
         return view('livewire.transaksi-component');

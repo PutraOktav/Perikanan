@@ -71,3 +71,6 @@ Route::get('other-need-transactions/{id}/edit', function () {
     return view('other-need-transactions/{id}/edit');
 })->name('other-need-transactions/{id}/edit');
 
+Route::get('hpp', function () {
+    return view('hpp');
+})->name('hpp');

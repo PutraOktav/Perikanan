@@ -24,5 +24,30 @@
                 <p class="text-lg font-bold">Total Histories: {{ $riwayatSamplingCount }}</p>
             </div>
         </div>
+        <!-- New Cards for Fish, Feed, Medicine, and Other Needs -->
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="p-4 bg-purple-500 text-white rounded-t-lg">Fish</div>
+            <div class="p-4">
+                <p class="text-lg font-bold">Total Fish: {{ $fishCount }}</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="p-4 bg-indigo-500 text-white rounded-t-lg">Feed</div>
+            <div class="p-4">
+                <p class="text-lg font-bold">Total Feed: {{ $feedCount }}</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="p-4 bg-pink-500 text-white rounded-t-lg">Medicine</div>
+            <div class="p-4">
+                <p class="text-lg font-bold">Total Medicine: {{ $medicineCount }}</p>
+            </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-md">
+            <div class="p-4 bg-yellow-500 text-white rounded-t-lg">Other Needs</div>
+            <div class="p-4">
+                <p class="text-lg font-bold">Total Other Needs: {{ $otherNeedCount }}</p>
+            </div>
+        </div>
     </div>
 </div>
