@@ -32,60 +32,83 @@
             </form>
         </div>
     @else
-        <div class="mt-4 bg-gray-100 rounded-lg p-4">
+        <div class="mt-4 bg-gray-200 rounded-lg p-4">
             <h3 class="text-lg font-semibold text-gray-800 mb-2">Hasil Perhitungan</h3>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Nama Ikan : </td>
-                    <span>{{ $fishTypeName }}</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Total Ikan : </td>
-                    <span>{{ $result['total_fish'] }} Ekor</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Biomassa Panen (kg) : </td>
-                    <span>{{ $result['biomassa_panen_kg'] }}Kg</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Total Pakan : </td>
-                    <span>{{ $result['total_feed'] }} Kg</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Perkiraan Waktu Panen : </td>
-                    <span>{{ $result['waktu_panen'] }} Minggu</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Pakan Per Hari : </td>
-                    <span>{{ $result['feed_per_day'] }} Gram</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Biomassa (kg) : </td>
-                    <span>{{ $result['biomassa_kg'] }} Kg</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Nama Pakan : </td>
-                    <span>{{ $result['nama_pakan'] }}</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Harga Pakan : </td>
-                    <span>Rp.{{ $result['feed_cost'] }}</span>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Harga Ikan : </td>
-                    <span>Rp. {{ $result['fish_cost'] }}</td>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Total Harga : </td>
-                    <span>Rp. {{ $result['all_cost'] }}</td>
-            </div>
-            <div>
-                <label class="block text-sm font-medium text-gray-700">Waktu Sampling : </td>
-                    <span>{{ $result['sampling'] }} Minggu</td>
-            </div>
+            <table class="min-w-full divide-y divide-gray-300">
+                <tbody class="bg-white divide-y divide-gray-300">
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Nama Ikan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $fishTypeName }}</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Luas Kolam
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $area }}
+                            m<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Total Ikan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['total_fish'] }} Ekor
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Biomassa Panen (kg)
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['biomassa_panen_kg'] }}
+                            Kg</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Total Pakan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['total_feed'] }} Kg
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Perkiraan Waktu Panen
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['waktu_panen'] }}
+                            Minggu</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Pakan Per Hari</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['feed_per_day'] }}
+                            Gram</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Biomassa (kg)</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['biomassa_kg'] }} Kg
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Nama Pakan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['nama_pakan'] }}</td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Harga Pakan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Rp. {{ $result['feed_cost'] }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Harga Ikan</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Rp. {{ $result['fish_cost'] }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Total Harga</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Rp. {{ $result['all_cost'] }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Waktu Sampling</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{{ $result['sampling'] }} Minggu
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
             <button wire:click="$set('isCalculated', false)"
                 class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Calculate Again
             </button>
         </div>
     @endif
+
 </div>
