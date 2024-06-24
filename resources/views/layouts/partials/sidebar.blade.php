@@ -40,7 +40,7 @@
         <li class="nav-item hover:font-serif {{ Nav::isRoute('hpp') }}">
             <a class="nav-link" href="{{ route('hpp') }}">
                 <i class="fas fa-money-bill-alt"></i>
-                <span>{{ __('Harga Pokok Penjualan') }}</span>
+                <span>{{ __('HPP') }}</span>
             </a>
         </li>
 
@@ -52,7 +52,7 @@
         <li class="nav-item hover:font-serif {{ Nav::isRoute('transaksi') }}">
             <a class="nav-link" href="{{ route('transaksi') }}">
                 <i class="fas fa-fw fa-exchange-alt"></i>
-                <span>{{ __('Transaksi Utama') }}</span>
+                <span>{{ __('Transaksi') }}</span>
             </a>
         </li>
 
@@ -64,28 +64,28 @@
         <li class="nav-item hover:font-serif {{ Nav::isRoute('feed-transactions') }}">
             <a class="nav-link" href="{{ route('feed-transactions') }}">
                 <i class="fas fa-fw fa-seedling"></i>
-                <span>{{ __('Stok Pakan') }}</span>
+                <span>{{ __('Pakan') }}</span>
             </a>
         </li>
 
         <li class="nav-item hover:font-serif {{ Nav::isRoute('fish-transactions') }}">
             <a class="nav-link" href="{{ route('fish-transactions') }}">
                 <i class="fas fa-fw fa-fish"></i>
-                <span>{{ __('Stok Ikan') }}</span>
+                <span>{{ __('Ikan') }}</span>
             </a>
         </li>
 
         <li class="nav-item hover:font-serif {{ Nav::isRoute('medicine-transactions') }}">
             <a class="nav-link" href="{{ route('medicine-transactions') }}">
                 <i class="fas fa-fw fa-pills"></i>
-                <span>{{ __('Stok Obat') }}</span>
+                <span>{{ __('Obat') }}</span>
             </a>
         </li>
 
         <li class="nav-item hover:font-serif {{ Nav::isRoute('other-need-transactions') }}">
             <a class="nav-link" href="{{ route('other-need-transactions') }}">
                 <i class="fas fa-fw fa-tools"></i>
-                <span>{{ __('Stok Alat') }}</span>
+                <span>{{ __('Alat') }}</span>
             </a>
         </li>
 
