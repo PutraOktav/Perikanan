@@ -1,88 +1,105 @@
 <!-- Page Wrapper -->
-<div id="wrapper" class="font-mono text-lg">
+<div id="wrapper" class="font-mono text-lg bg-gray-100">
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gray-900 sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
             <div class="sidebar-brand-icon rotate-n-15">
-                <i class="fas fa-fish"></i>
+                <i class="fas fa-fish text-blue-500"></i>
             </div>
-            <div class="sidebar-brand-text mx-3 hover:font-serif">Aquatic Planning</div>
+            <div class="sidebar-brand-text mx-3 text-blue-500 hover:text-blue-700">Aquatic Planning</div>
         </a>
 
         <!-- Divider -->
         <hr class="sidebar-divider my-0">
 
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item">
+            <a class="nav-link" href="/">
+                <i class="fas fa-fw fa-home"></i>
+                <span>{{ __('Dashboard') }}</span>
+            </a>
+        </li>
+
         <!-- Divider -->
         <hr class="sidebar-divider">
 
         <!-- Heading -->
-        <div class="sidebar-heading">
+        <div class="sidebar-heading text-blue-500">
             {{ __('Menu') }}
         </div>
 
-        <!-- Nav Item -->
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('fish-calculator') }}">
+        <!-- Nav Item - Pages -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('fish-calculator') }}">
                 <i class="fas fa-fw fa-calculator"></i>
                 <span>{{ __('Kebutuhan') }}</span>
             </a>
         </li>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('fish-farm-sampling-calculator') }}">
+        <!-- Nav Item - Sampling -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('fish-farm-sampling-calculator') }}">
-                <i class="fas fa-fw fa-vial"></i>
+                <i class="fas fa-fw fa-seedling"></i>
                 <span>{{ __('Kebutuhan Sampling') }}</span>
             </a>
         </li>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('hpp') }}">
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Nav Item - Utilities -->
+
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('hpp') }}">
-                <i class="fas fa-money-bill-alt"></i>
+                <i class="fas fa-fw fa-money-bill-alt"></i>
                 <span>{{ __('HPP') }}</span>
             </a>
         </li>
 
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
         <!-- Heading -->
-        <div class="sidebar-heading">
+        <div class="sidebar-heading text-blue-500">
             {{ __('Transaksi Menu') }}
         </div>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('transaksi') }}">
+        <!-- Nav Item - Charts -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('transaksi') }}">
                 <i class="fas fa-fw fa-exchange-alt"></i>
                 <span>{{ __('Transaksi') }}</span>
             </a>
         </li>
 
-        <!-- Heading -->
-        <div class="sidebar-heading">
-            {{ __('Stok') }}
-        </div>
-
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('feed-transactions') }}">
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('feed-transactions') }}">
                 <i class="fas fa-fw fa-seedling"></i>
                 <span>{{ __('Pakan') }}</span>
             </a>
         </li>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('fish-transactions') }}">
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('fish-transactions') }}">
                 <i class="fas fa-fw fa-fish"></i>
                 <span>{{ __('Ikan') }}</span>
             </a>
         </li>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('medicine-transactions') }}">
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('medicine-transactions') }}">
                 <i class="fas fa-fw fa-pills"></i>
                 <span>{{ __('Obat') }}</span>
             </a>
         </li>
 
-        <li class="nav-item hover:font-serif {{ Nav::isRoute('other-need-transactions') }}">
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
             <a class="nav-link" href="{{ route('other-need-transactions') }}">
                 <i class="fas fa-fw fa-tools"></i>
                 <span>{{ __('Alat') }}</span>
