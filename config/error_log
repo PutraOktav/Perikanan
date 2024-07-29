@@ -1,0 +1,96 @@
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/mail.php on line 17
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/database.php on line 19
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/pzgbtwqf/perikanan.nokt.tech/config/livewire.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/livewire.php on line 29
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/session.php on line 21
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/filesystems.php on line 16
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/queue.php on line 16
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/filament.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/filament.php on line 41
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/services.php on line 18
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/cache.php on line 18
+[26-Jul-2024 09:07:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/logging.php on line 21
+[26-Jul-2024 09:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/auth.php on line 17
+[26-Jul-2024 09:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/pzgbtwqf/perikanan.nokt.tech/config/livewire.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/livewire.php on line 29
+[26-Jul-2024 09:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/mail.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/mail.php on line 17
+[26-Jul-2024 09:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/app.php on line 16
+[26-Jul-2024 09:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/filesystems.php on line 16
+[26-Jul-2024 09:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/session.php on line 21
+[26-Jul-2024 09:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/database.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/database.php on line 19
+[26-Jul-2024 09:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/app.php on line 16
+[26-Jul-2024 09:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/services.php on line 18
+[26-Jul-2024 09:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/queue.php on line 16
+[26-Jul-2024 09:07:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/filament.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/filament.php on line 41
+[26-Jul-2024 09:07:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/auth.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/auth.php on line 17
+[26-Jul-2024 09:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/cache.php on line 18
+[26-Jul-2024 09:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/pzgbtwqf/perikanan.nokt.tech/config/logging.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/config/logging.php on line 21

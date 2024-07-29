@@ -1,0 +1,8 @@
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/pzgbtwqf/perikanan.nokt.tech/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/tests/Feature/ExampleTest.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Tests\TestCase" not found in /home/pzgbtwqf/perikanan.nokt.tech/tests/Feature/ExampleTest.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/tests/Feature/ExampleTest.php on line 8

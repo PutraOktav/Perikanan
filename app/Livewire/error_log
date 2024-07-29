@@ -1,0 +1,72 @@
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishCalculator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishCalculator.php on line 10
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishFarmSamplingCalculator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishFarmSamplingCalculator.php on line 10
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/HppComponent.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/HppComponent.php on line 9
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/Dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/Dashboard.php on line 15
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageMedicines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageMedicines.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFish.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFish.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageOtherNeeds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageOtherNeeds.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFeeds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFeeds.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/Dashboard.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/Dashboard.php on line 15
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/TransaksiComponent.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/TransaksiComponent.php on line 9
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/HppComponent.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/HppComponent.php on line 9
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/TransaksiComponent.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/TransaksiComponent.php on line 9
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFeeds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFeeds.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageOtherNeeds.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageOtherNeeds.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishCalculator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishCalculator.php on line 10
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFish.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageFish.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageMedicines.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/ManageMedicines.php on line 8
+[26-Jul-2024 10:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "Livewire\Component" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishFarmSamplingCalculator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Livewire/FishFarmSamplingCalculator.php on line 10

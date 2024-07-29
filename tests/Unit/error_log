@@ -1,0 +1,8 @@
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/pzgbtwqf/perikanan.nokt.tech/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/tests/Unit/ExampleTest.php on line 7
+[26-Jul-2024 10:14:15 UTC] PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /home/pzgbtwqf/perikanan.nokt.tech/tests/Unit/ExampleTest.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/tests/Unit/ExampleTest.php on line 7

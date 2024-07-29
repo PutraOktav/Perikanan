@@ -1,0 +1,8 @@
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Providers/AppServiceProvider.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\ServiceProvider" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Providers/AppServiceProvider.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Providers/AppServiceProvider.php on line 8

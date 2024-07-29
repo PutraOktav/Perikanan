@@ -1,0 +1,60 @@
+[26-Jul-2024 10:14:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FeedTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FeedTransaction.php on line 9
+[26-Jul-2024 10:14:07 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Medicine.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Medicine.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Auth\User" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/User.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/User.php on line 10
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Fish.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Fish.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Transaksi.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Transaksi.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/OtherNeed.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/OtherNeed.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishFood.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishFood.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/MedicineTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/MedicineTransaction.php on line 9
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Riwayat.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Riwayat.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishType.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishType.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishTransaction.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/FishTransaction.php on line 9
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Hpp.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Hpp.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/OtherNeedTransaction.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/OtherNeedTransaction.php on line 8
+[26-Jul-2024 10:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/RiwayatSampling.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/RiwayatSampling.php on line 8
+[26-Jul-2024 10:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Database\Eloquent\Model" not found in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Feed.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/app/Models/Feed.php on line 7

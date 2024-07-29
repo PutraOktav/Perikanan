@@ -1,0 +1,24 @@
+[26-Jul-2024 09:07:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/web.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/web.php on line 8
+[26-Jul-2024 09:07:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/api.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/api.php on line 6
+[26-Jul-2024 09:07:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/web.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/web.php on line 8
+[26-Jul-2024 09:07:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/console.php on line 6
+[26-Jul-2024 09:07:13 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Route" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/api.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/api.php on line 6
+[26-Jul-2024 09:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Support\Facades\Artisan" not found in /home/pzgbtwqf/perikanan.nokt.tech/routes/console.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/pzgbtwqf/perikanan.nokt.tech/routes/console.php on line 6
